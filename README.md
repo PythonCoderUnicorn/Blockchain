@@ -1,4 +1,6 @@
 
-<img height='230' src="./blockchain.png">
+<img height='230' align='right' src="./blockchain.png">
+
 # Blockchain
-a repo for my blockchain and crypto learning 
+
+A repo for my blockchain and crypto learning. 
