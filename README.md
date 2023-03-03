@@ -4,3 +4,4 @@
 # Blockchain
 
 A repo for my blockchain and crypto learning. 
+Learning materials from [codecademy.com](https://www.codecademy.com/).

@@ -1,0 +1,34 @@
+
+# Blockchain 101
+
+Blockchain is all about decentralization, which is used in **web3** technology.
+
+- **Blockchain** = a network of computers all hosting, maintaining and creating new "blocks" pf data that are all chained together using cryptography 
+(which is a immutable ledger). 
+
+- **Consensus Mechanism** = the mechanism by which all the different computers in the blockchain network, nodes, come to agree on what data the ledger contains.
+
+- **PoW** = proof of work consensus mechanism, Bitcoin consenus mechanism.
+Computers doing a massive amout of cryptographic work in order to potentially win a chance at mining the next block, earning a block reward. 
+
+- **PoS** = proof of stake consensus mechanism, Etherium's consensus mechanism.
+Participants staking their tokens, native currency of the network in exchange for a chance to mine the next block , earning a reward. 
+
+- **Dapp** = decentralized app, piece of software that has at least some decentralized component. 
+
+- **layers** = different blockchains and systems that run on top of a base blockchain in order to unlock or improve existing functionality that may not be possible on the base layer.
+
+
+## Blockchain uses
+
+Everything is transparent, verifiable, and decentralized.
+
+- money
+- smart contracts
+- DeFi (decentralized finance)
+- NFT (non-fungible tokens)
+- DAO (decentralized autonomous org)
+
+**Smart contracts** are pieces of code that are deployed to the blockchain via a ledger system. Like a Bitcoin transaction, smart contract code gets deployed and recorded to the blockchain for all to see forever. 
+
+
