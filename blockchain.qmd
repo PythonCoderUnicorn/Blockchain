@@ -190,3 +190,34 @@ caller contract before execution finishes.
 
 
 
+## Languages
+
+Smart contract languages, 3 most common ones are Solidity, Clarity and Rust. 
+
+- Solidity : used on the Etherium chain (and others), most common language and is
+similar to JavaScript. 
+
+    - [Solidity GitHub](https://github.com/ethereum/solidity#example)
+    - object oriented code which could have implicit functions leaving vulnerabilities like reentrancy attacks
+    - Turing complete makes for complex debugging
+    - popular in market but losing due to vulnerabilities
+
+- Clarity : designed to be safe, secure and easy for developers. 
+
+    - [Clarity GitHub](https://github.com/clarity-lang/overview/blob/master/tutorial-hello-world.md)
+    - no looping is permitted , prevents halting issues (used in DDOS attacks)
+    - reentrancy is prohibited
+    - not object oriented
+
+- Rust : very popular language, used on Solana. 
+
+
+
+
+
+## Non-Fungible Tokens (NFTs)
+
+
+
+
+
