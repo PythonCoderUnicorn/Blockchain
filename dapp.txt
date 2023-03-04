@@ -1,0 +1,152 @@
+
+Build a Dapp 
+    Ethereum  / Stacks / Solana blockchains
+
+web2 app components:
+
+    - front end 
+    - API 
+    - authentication
+    - database
+    - file storage
+    - hosting
+    - payments
+
+
+1. Blockchain Layer (foundation)
+
+    use case for dapp & tradeoffs
+
+    - security: a priority then use Stacks (ends up on Bitcoin)
+    - speed: a priority then less decentralization use Solana
+    - large community: dev tools then Ethereum 
+
+    https://docs.stacks.co/docs/intro
+
+>> Ethereum (smart contract live on)
+
+2. Indexing & Query 
+
+    reading data from a blockchain is complex, use existing tools like Infura
+
+    https://docs.infura.io/infura/
+
+>> infura (tool)
+
+3. Centralized data layer 
+
+    The centralized data layer is a single company or entity that 
+    will host endpoints on which we can query blockchain data 
+    and send blockchain data.
+
+    - Stacks API 
+    - Quicknode
+    - Infura
+    - Ankr
+
+    https://docs.stacks.co/docs/blockchain/stacks-blockchain-api
+
+>> 
+
+4. Decentralized layer 
+
+    Decentralized data layers have multiple nodes that provide 
+    the blockchain data for developers to pull. They also have a 
+    consensus mechanism in place to incentivize proper data and punish false data.
+
+    - KYVE Network , https://www.kyve.network/
+    - The Graph 
+    - Pocket Network (POKT) 
+
+>> decentralized data layer 
+
+
+5. Oracles 
+
+    Oracles are entities that provide external data that we can use in our smart contracts.
+
+    services : Redstone and Chainlink 
+
+    https://redstone.finance/  (have a YouTube channel)
+
+>> 
+
+6. Blockchain development environment 
+
+    Blockchains have mainnets, the live blockchain, 
+    and testnets, which are used for development purposes (public & distributed).
+
+    mock up a blockchain environment locally without having to 
+    deploy to a testnet every time we make a change.
+    This is similar to running a local server in the web2 world.
+
+    - Clarinet
+    - Hardhat
+    - Anchor protocol  https://www.anchorprotocol.com/
+
+
+>> 
+
+7. Wallets & ID management
+
+    In the decentralized web3, world we authenticate using cryptography 
+    and public/private key pairs.
+
+    The user-facing mechanism we use to do that is called a wallet. 
+    A wallet is a piece of software that allows us to create an address on 
+    a blockchain and then authenticate using our private key to access it.
+
+    address (user account) iis shared across all dapps and data belongs to the wallet owner
+
+    wallets are needed for dapp interaction
+
+    - Hiro web wallet
+    - Metamask  https://metamask.io/  (Chrome extension)
+    - Phantom 
+
+>> 
+
+8. off-chain data storage 
+
+    Not all data should be stored in the chain, 
+    not meant to replace traditional database storage.
+
+    consider amount of data and type , find the most effective method 
+
+    - Gun (decentralized data storage)  https://gun.eco/
+    - Arweave 
+    - IPFS 
+    - Gaia
+    - Ceramic Network 
+
+
+>> 
+
+9. front end libraries 
+
+    front end frameworks work and stay the same 
+    using something like JavaScript, and they will utilize our 
+    wallet to broadcast transactions to the chain on our users’ behalf. 
+    They also allow us to more efficiently query data from the chain
+
+    - stacks.js 
+    - ethers.js 
+    - web3.js   https://web3js.readthedocs.io/en/v1.8.0/
+
+>>
+
+
+============= build dapp process 
+
+1. choose chain 
+2. access data from blockchain
+3. set up Clarinet dev environment (local chain)
+4. ID & auth = Hiro for Web Wallet 
+5. some data off-chain => Gun decentralized data storage
+6. client library micro-stacks, front end using Remix 
+7. host dapp on centralized hosting (Netlify) or Arweave (decentralized)
+
+
+
+
+
