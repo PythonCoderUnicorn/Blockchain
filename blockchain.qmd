@@ -265,8 +265,32 @@ Each memeber user of the DAO has a governance token and a threshold of votes are
 
 
 
+## Dapp
 
+A Decentralized Application (Dapp) is essentially an application that has at least one component hosted on a decentralized architecture. 
+Dapps exist on a spectrum. 
 
+- [browse dapps that exist](https://dappradar.com/)
+
+- Uniswap : decentralized exchange create a liquidity pol for different tokens, users add their tokens to the pool in exchange for a yeild on that token, and user swap their tokens by depositing 1 in the pool and taking from another pool.
+
+- Gamma : NFT marketplace
+
+- Grape protocol built with Solana to create & manage DAOs
+
+### web2 vs web3
+
+App idea is called Cheddar, it is online retail for digital products.
+
+- Web2: Web applications that are built on architecture that is owned and controlled by a single entity.
+
+- Web3: Web applications that are built on architecture that is distributed among a decentralized network of entities.
+
+At the heart of web3 development is the concept of recreating web2 web applications on top of decentralized blockchain architecture.
+
+- web2 has client, server and database. The tech stack has: font end, API (auth, database, file storage), hosting, payments
+
+- web3 tech stack has font end, API (data from smart contracts & blockchain), authentication (Metamask, Hiro or Phantom software used), database (data storage in smart contracts and decnetralized storage), file storage (decentralized), hosting (IPFS or Arweave), payments (on-chain payments)
 
 
 
