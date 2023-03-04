@@ -32,3 +32,25 @@ Everything is transparent, verifiable, and decentralized.
 **Smart contracts** are pieces of code that are deployed to the blockchain via a ledger system. Like a Bitcoin transaction, smart contract code gets deployed and recorded to the blockchain for all to see forever. 
 
 
+
+## Decentralization 
+
+In a decentralized (or distributed) system, the code is running across a collection of computers all owned by individual entities. This network is usually open for anyone to join and participate in running a node.
+
+A peer-2-peer network is a collection of different people running file hosting servers. With this model, if we want to download a file, we can download it from any of the servers in the network that host it. 
+P2P networks are ephemeral and don’t have a global state record, whereas blockchains do.
+
+
+
+## Usefulness/ Benefits
+
+- security = security from the cryptography and generating secure
+identity and suer management
+
+- transparency = blockchains are open (open network, open nodes where verification takes place == decentralized)
+
+- permanence = ledgers in the blockchain are permanent
+
+
+> in blockchain, we don't want duplicated transactions, hence the sitributed ledger (network wide)
+
