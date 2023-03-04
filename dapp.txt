@@ -146,7 +146,41 @@ web2 app components:
 6. client library micro-stacks, front end using Remix 
 7. host dapp on centralized hosting (Netlify) or Arweave (decentralized)
 
+=============
 
 
 
 
+
+
+~~~~~~~~ 100% Decentralized app 
+
+1. blockchain = Stacks
+2. Index & Query = KYVE network 
+3. centralized data = Stacks API
+4. decentralized data = Redstone
+5. dev enviro = Clarinet
+6. wallet & ID = Hiro web wallet 
+7. off-chain storage = Arweave & Gun 
+8. front end = micro-stacks 
+
+Smart Contracts 
+
+- create a NFT collection as utility to be a creator on dapp and a member of the DAO 
+- as DAO member can vote 
+- web app needs to be able to check NFT & DAO membership 
+
+
+
+
+
+blockchains 🏧
+    Ethereum
+    Polygon
+    Solana
+    Stacks
+    NEAR
+    Avalanche
+
+
+https://www.codecademy.com/learn/introduction-to-blockchain
