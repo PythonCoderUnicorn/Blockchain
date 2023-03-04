@@ -217,7 +217,30 @@ similar to JavaScript.
 
 ## Non-Fungible Tokens (NFTs)
 
+NFTs are records of ownership of a unique asset, 
+Bitcoins are not unique (fungible).
 
+- art NFT for profiles ( bored apes )
+- utility NFT, grants access to software
+
+
+Building NFTs :
+
+- token name, the name for the NFT collection
+- token ID, identifier that is unique to each NFT
+- token url, data that defines a token's traits
+- owner, address of the NFT owner
+- mint, a function responsible for allowinga a user to mint a NFT
+- transfer, a function allowing NFT transfers between users
+- burn, a function to permanently destroy a NFT
+
+### NFTs on the blockchain market
+
+- Etherium uses ERC-721 token standard to define NFTs, it uses OpenZeppelin.
+
+- Bitcoin, need to use Stacks chain and Clarity language to create NFT that can go on Bitcoin. Stacks’ version of NFT standard implementation, the SIP-009 trait. SIPs are Stacks Improvement Proposals.
+
+- Solana NFTs are fast due to using Metaplex stroefront, which creates & mints NFTs.
 
 
 
