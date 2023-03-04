@@ -162,3 +162,31 @@ handle security and user experience.
 
 ## Smart Contracts
 
+smart contracts are chunks of code that live on the blockchain. If we think of a backend server with code running on it, smart contracts are very similar. The main difference is that smart contracts are publicly accessible and immutable.
+
+    - Smart contracts are written in Solidity and Clarity which have access control functionaility for security. Viewable by anyone but need crypto to (partially) modify. 
+
+When we write a smart contract and deploy it to a blockchain, we are initiating a transaction to write that data to the blockchain. Then anybody can call that smart contract and interact with it. This contract inital code can't be modified, only the data is modified. 
+
+- smart contract > data modified (permanent) > blockchain updates
+
+- Uses in finance, gaming, legal, real estate, corporate structure
+
+- decentralized finance relies heavily on secure code written by the developers and that if something goes wrong there is no help.
+
+
+>  There is a saying in the blockchain world: “Code is law.” This means that whatever the code says, goes.
+
+- [Decentralized Application Security Project](http://dasp.co/)
+
+### Reentrancy 
+
+Reentrancy is a smart contract vulnerability, it happens when 
+when external contract calls are allowed to make calls to the 
+caller contract before execution finishes.
+
+- a hack attack in which the hacker was able to call a function to allocate funds to a newly created DAO over and over again before the ledger of token ownership was updated.
+
+
+
+
