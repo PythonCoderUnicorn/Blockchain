@@ -244,3 +244,35 @@ Building NFTs :
 
 
 
+
+
+
+## DAOs
+
+Decentralized autonomous organizations (DAOs) are essentially a series of smart contracts, but with a lot of thought put into how the group of people participating make decisions. In a DAO, decisions are made as a community and votes are recorded on-chain for transparency, verifiability, and immutability.
+
+- voting process
+- treasury management
+
+Each memeber user of the DAO has a governance token and a threshold of votes are required to be met before anything changes. NFTs and DAOs can be used together to track membership.
+
+- DAOs are new, often lack leadership, can be difficult to manage
+
+- [create your own DAO](https://daohaus.club/)
+- [MolochDAO - no code tool](https://molochdao.com/)
+- [RaidGuild - multi step process to join](https://www.raidguild.org/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
