@@ -52,7 +52,7 @@ identity and suer management
 - permanence = ledgers in the blockchain are permanent
 
 
-> in blockchain, we don't want duplicated transactions, hence the sitributed ledger (network wide)
+> in blockchain, we don't want duplicated transactions, hence the distributed ledger (network wide)
 
 
 
@@ -92,4 +92,73 @@ PoW system: mining is using software to brute frce guess the correct nonce to ma
 
 When miners submit a nonce, it gets run through a cryptography function that will output a hash. Only when a miner gets the hash correct do they get to mine the next block.
 
+
+
+## Transaction
+
+Bitcoin transaction happens, it is shared 1 by 1 through each node on the network
+
+Example: purchase item 1 and then same Bitcoin used to buy item 2.
+The miner (out of so many) that solves the puzzle gets to write the 
+new data and the competing transaction (item 2) would be dropped. 
+Once the correct nonce is found and the hash matched, 
+the miner writes the block, its data, and its header hash to the chain, 
+and the change is accepted by all the nodes in the network.
+
+
+
+## Consensus Mechanism (CM)
+
+The mining process requires miners to perform work using an external resource (energy) to actually “mine” and create new units of cryptocurrency. 
+
+- PoW : CM relies on external input {energy} ==> new_Bitcoin. Large amount of energy needed (a feature not a bug) to solve a cryptographic puzzle. 
+
+    - in PoW, the higher your hashrate (a measure of computing power), the higher your likelihood of being able to mine a new block.
+
+- PoS : validator nodes lock up a specific amount of tokens to win a
+chance at proposing & validating new blocks. Etherium, Solana, Avalanche etc use this model.
+
+    - in PoS, the more validating of legit transactions the more likelihood of being able to mine a new block. 
+    
+    - Dishonesty (writing fraudulent blocks to the chain) is punished, tokens slashed or burned
+
+
+- PoX : Proof of Transfer is a CM unique to the Stacks blockchain. It is layer 2 of the PoW model. 
+
+    - Pox Stacks miners commit Bitcoin for a chance at mining a block. Stacks can recycle the energy used to mine Bitcoin and unlock Bitcoin's potential as productive asset.
+
+- PoB : proof of burn, asset is destroyed instead of transferred, energy is used
+
+- PoH : proof of history uses validator nodes to quickly verify that a transaction occurred between 2 specific points in the blockchain. Fast verification, allows for multiple parts of the chain to be verified at any time. 
+
+- PoSp : proof of space, a method for users to prove they are keeping unused space on a hard drive in reserve for network storage. 
+
+    - A cryptographic collection of numbers is stored on a user’s disk and these represent plots: a special unit of storage. The users with the largest number of plots available have the highest chance of winning the next block.
+
+- PoA : proof of access uses Arweave protocol. Not a block_chain_ but block_weave_, where each block is linked to multiple previous blocks. Incentive is to make space available, permanent decentralized storage for a token reward. 
+
+
+## Blockchains 
+
+comparing three of the biggest chains: Bitcoin, Ethereum, and Solana, and how they 
+handle security and user experience. 
+
+- Bitcoin: uses the PoW model, designed to make gaining money difficult with its historical ledger being immutable. It is as fast as the slowest node in network.
+
+    - Cons = inefficient, slow and uses lots of energy, no smart contracts
+    - Pros = secure decentralization
+
+- Solana: designed for speed and user experience which uses proof of history CM
+
+    - Cons = higher requirements to run a Solana node, centralized, less secure
+    - Pros = user experience
+
+- Etherium: uses proof of stake for efficiency and energy use. 
+
+    - Cons = more you accumulate the more influence, similar to centralized banks
+    - Pros = easier on energy use
+
+
+
+## Smart Contracts
 
