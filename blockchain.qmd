@@ -54,3 +54,42 @@ identity and suer management
 
 > in blockchain, we don't want duplicated transactions, hence the sitributed ledger (network wide)
 
+
+
+## Blockchain Anatomy
+
+Each blockchain network works a bit differently PoW vs PoS. 
+Blockchain functionality is blocks, nodes, and miners. 
+
+### Blocks
+
+blocks are the chunks of data that make up the blockchain.
+A blockchain as a chain of blocks of data connected to each 
+other via their timestamps and hashes of their data.
+
+- `data` = data contained in and written to the block
+- `nonce` = a randomly generated 32-bit integer that makes a block header hash
+- `hash` = a 256-but integer that is connected to the nonce
+
+1. blockchain created
+2. nonce generates a hash
+
+
+### Nodes
+
+Nodes must have the ledger watched and verified by copious distributed computers,
+each computer is a `node`. Nodes only hold a copy of the existing blockchain, miners are the ones who add blocks.
+
+- Each node is responsible for independently approving each new block that gets mined. - The whole network of nodes must approve a block for it to be successfully mined. 
+
+### Miners
+
+Miners are in charge of creating new blocks on the blockchain. 
+Every block has its own nonce and hash, but every block also 
+references the previous block’s hash. 
+
+PoW system: mining is using software to brute frce guess the correct nonce to match the correct hash, going through 4 billion permutations. Finding the correct nonce == 'proof of work'.
+
+When miners submit a nonce, it gets run through a cryptography function that will output a hash. Only when a miner gets the hash correct do they get to mine the next block.
+
+
